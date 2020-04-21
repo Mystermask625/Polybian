@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>  
+  <Item id="draconarius_banner"
+        name="{=WePcpx0u}Draconarius"
+        body_name="bo_spear_b"
+        shield_body_name="bo_kite_shield_e"
+        recalculate_body="false"
+        mesh="dragonbanner"
+        using_tableau="true"
+        weight="4.0"
+        appearance="1"
+        Type="Shield"
+        item_holsters="polearm_back:polearm_back_2"
+        has_lower_holster_priority="true"
+		holster_position_shift="0,-0.035,-1.1">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="1"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              item_usage="banner"
+              position="0.0, 0.0, -0.5"
+			  rotation="0, 0, 180"
+              physics_material="wood_shield"
+              weapon_length="300"
+              center_of_mass="0.0,0.1,0.1"
+              hit_points="50">
+        <WeaponFlags CanBlockRanged="false"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+		   HasToBeHeldUp="true"                     
+		   />
+  </Item>
+  <Item id="banner_big"
+        name="{=WePcpx0u}Big Banner"
+        body_name="bo_spear_b"
+        shield_body_name="bo_kite_shield_e"
+        recalculate_body="false"
+        mesh="campaign_flag"
+        using_tableau="true"
+        weight="4.0"
+        appearance="1"
+        Type="Shield"
+        item_holsters="polearm_back:polearm_back_2"
+        has_lower_holster_priority="true"
+		holster_position_shift="0,-0.035,-1.1">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="1"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              item_usage="banner"
+              position="0.0, 0.0, -0.80"
+              rotation="0.0, 0.0, 0.00"
+              physics_material="wood_shield"
+              weapon_length="300"
+              center_of_mass="0.0,0.1,0.1"
+              hit_points="50">
+        <WeaponFlags CanBlockRanged="false"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+		   HasToBeHeldUp="true"                     
+		   />
+  </Item>
+
+		<!-- CUSTOM JAVELIN -->		<!-- CUSTOM JAVELIN -->		<!-- CUSTOM JAVELIN -->		<!-- CUSTOM JAVELIN -->		<!-- CUSTOM JAVELIN -->		<!-- CUSTOM JAVELIN -->
+
+  <CraftedItem id="princeps_pilum"
+               name="{=*}Pilum"
+               crafting_template="princeps_pilum">
+    <Pieces>
+      <Piece id="pilum_basic"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="spear_guard_7"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="spear_handle_9"
+             Type="Handle"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="legionarius_pilum"
+               name="{=*}Legionarius Pilum"
+               crafting_template="legionarius_pilum">
+    <Pieces>
+      <Piece id="pilum_legionarius"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="spear_guard_7"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="spear_handle_10"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="spear_pommel_5"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="legionarius_elite_pilum"
+               name="{=*}Cohortis Legionarius Pilum"
+               crafting_template="legionarius_elite_pilum">
+    <Pieces>
+      <Piece id="pilum_elite"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="spear_guard_7"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="spear_handle_11"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="spear_pommel_5"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="electum_pilum"
+               name="{=*}Electum Pilum"
+               crafting_template="electum_pilum">
+    <Pieces>
+      <Piece id="electum_blade"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="spear_guard_7"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="spear_handle_11"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="spear_pommel_5"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  
+		<!-- CUSTOM THROWING DAGGER -->		<!-- CUSTOM THROWING DAGGER -->		<!-- CUSTOM THROWING DAGGER -->		<!-- CUSTOM THROWING DAGGER -->		<!-- CUSTOM THROWING DAGGER -->		<!-- CUSTOM THROWING DAGGER -->
+		
+  <CraftedItem id="plumbata"
+               name="{=S6BFpEg3}Plumbata"
+               crafting_template="ThrowingKnife">
+    <Pieces>
+      <Piece id="dagger_blade_11"
+             Type="Blade"
+             scale_factor="110" />
+      <Piece id="khuzait_dagger_guard_9"
+             Type="Guard"
+             scale_factor="110" />
+      <Piece id="vlandian_grip_4"
+             Type="Handle"
+             scale_factor="110" />
+      <Piece id="khuzait_pommel_6"
+             Type="Pommel"
+             scale_factor="110" />
+    </Pieces>
+    <!-- Length: 67 Weight: 0.91 SwingSpeed: 110 ThrustSpeed: 111 -->
+  </CraftedItem>
+  
+		<!-- CUSTOM DAGGER -->		<!-- CUSTOM DAGGER -->		<!-- CUSTOM DAGGER -->		<!-- CUSTOM DAGGER -->		<!-- CUSTOM DAGGER -->		<!-- CUSTOM DAGGER -->		<!-- CUSTOM DAGGER -->		<!-- CUSTOM DAGGER -->
+		
+  <CraftedItem id="auxiliarus_gladius"
+             name="{=bVzkrtUc}Auxiliarus Gladius"
+             crafting_template="Dagger"
+             culture="Culture.empire">
+      <Pieces>
+        <Piece id="dagger_blade_14"
+               Type="Blade"
+               scale_factor="90" />
+        <Piece id="khuzait_dagger_guard_3"
+               Type="Guard"
+               scale_factor="90" />
+        <Piece id="khuzait_grip_2"
+               Type="Handle" />
+        <Piece id="vlandian_pommel_6"
+               Type="Pommel"
+               scale_factor="109" />
+      </Pieces>
+      <!-- Length: 54 Weight: 0.7 SwingSpeed: 131 ThrustSpeed: 109 SwingDamage: 6B, 25S ThrustDamage: 11B, 32S -->
+    </CraftedItem>
+  <CraftedItem id="civis_gladius"
+             name="{=bVzkrtUc}Civis Gladius"
+             crafting_template="Dagger"
+             culture="Culture.empire">
+      <Pieces>
+        <Piece id="dagger_blade_6"
+               Type="Blade"
+               scale_factor="90" />
+        <Piece id="aserai_dagger_guard_1"
+               Type="Guard"
+               scale_factor="90" />
+        <Piece id="vlandian_grip_21"
+               Type="Handle" />
+        <Piece id="vlandian_pommel_9"
+               Type="Pommel"
+               scale_factor="109" />
+      </Pieces>
+      <!-- Length: 54 Weight: 0.7 SwingSpeed: 131 ThrustSpeed: 109 SwingDamage: 6B, 25S ThrustDamage: 11B, 32S -->
+    </CraftedItem>
+  
+		<!-- CUSTOM SPEAR -->		<!-- CUSTOM SPEAR -->		<!-- CUSTOM SPEAR -->		<!-- CUSTOM SPEAR -->		<!-- CUSTOM SPEAR -->		<!-- CUSTOM SPEAR -->		<!-- CUSTOM SPEAR -->
+  
+  <CraftedItem id="praetorian_spear"
+               name="{=*}Praetorian Hasta"
+               crafting_template="TwoHandedPolearm"
+               culture="Culture.empire">
+    <Pieces>
+      <Piece id="spear_blade_5"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="spear_guard_6"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="spear_handle_18"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="spear_pommel_7"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="sarissa_hoplite"
+               name="{=*}Sarissa"
+               crafting_template="TwoHandedPolearm"
+               culture="Culture.empire">
+    <Pieces>
+      <Piece id="spear_blade_41"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="spear_guard_7"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="spear_handle_27"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="spear_pommel_13"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="draconarius_lance"
+               name="{=*}Draconarius"
+               crafting_template="draconarius_lance"
+               culture="Culture.empire">
+    <Pieces>
+      <Piece id="spear_blade_15"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="spear_guard_2"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="draconarius_handle"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="spear_pommel_10"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="triarius_lance"
+               name="{=*}Honorarius"
+               crafting_template="TwoHandedPolearm"
+               culture="Culture.empire">
+    <Pieces>
+      <Piece id="spear_blade_7"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="spear_guard_3"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="spear_handle_26"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="spear_pommel_1"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="primus_lance"
+               name="{=*}Primus"
+               crafting_template="TwoHandedPolearm"
+               culture="Culture.empire">
+    <Pieces>
+      <Piece id="spear_blade_18"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="spear_guard_13"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="spear_handle_19"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="spear_pommel_11"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="pila_princeps"
+               name="{=*}Pila Princeps"
+               crafting_template="TwoHandedPolearm"
+               culture="Culture.empire">
+    <Pieces>
+      <Piece id="spear_blade_14"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="spear_guard_10"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="spear_handle_17"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="default_polearm_pommel"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  
+		<!-- CUSTOM SWORD -->		<!-- CUSTOM SWORD -->		<!-- CUSTOM SWORD -->		<!-- CUSTOM SWORD -->		<!-- CUSTOM SWORD -->		<!-- CUSTOM SWORD -->		<!-- CUSTOM SWORD -->
+  
+  <CraftedItem id="iria_griffon"
+               name="{=Rcc0JW6H}Iria's Griffon"
+               crafting_template="iria_griffon"
+               is_merchandise="false"
+               culture="Culture.empire">
+    <Pieces>
+      <Piece id="iria_blade"
+             Type="Blade"
+             scale_factor="80" />
+      <Piece id="empire_noble_guard_3"
+             Type="Guard"
+             scale_factor="60" />
+      <Piece id="empire_grip_17"
+             Type="Handle"
+             scale_factor="80" />
+      <Piece id="empire_noble_pommel_3"
+             Type="Pommel"
+             scale_factor="80" />
+    </Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="gladius_princeps"
+               name="{=1CamO1P3}Gladius"
+               crafting_template="gladius_princeps"
+               culture="Culture.empire">
+    <Pieces>
+      <Piece id="gladius_blade"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="aserai_guard_5"
+             Type="Guard"
+             scale_factor="80" />
+      <Piece id="empire_grip_4"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="sturgian_pommel_1"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="gladius_senatus"
+               name="{=AMIdBVZb}Gladius Senatus"
+               crafting_template="gladius_senatus"
+               culture="Culture.empire">
+    <Pieces>
+      <Piece id="gladius_senatus_blade"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="khuzait_guard_8"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="empire_grip_2"
+             Type="Handle"
+             scale_factor="80" />
+      <Piece id="aserai_pommel_6"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  
+  <CraftedItem id="gladius_augustus"
+               name="{=GyYsQlVd}Gladius Augustus"
+               crafting_template="gladius_augustus"
+               is_merchandise="false"
+               culture="Culture.empire">
+    <Pieces>
+      <Piece id="gladius_augustus_blade"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="battania_guard_5"
+             Type="Guard"
+             scale_factor="80" />
+      <Piece id="khuzait_noble_grip_2"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="vlandian_pommel_9"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="kluddacorius_sword"
+               name="{=*}Kluddacorius Spatha"
+               crafting_template="TwoHandedSword"
+                          culture="Culture.empire">
+    <Pieces>
+      <Piece id="empire_blade_7"
+             Type="Blade"
+             scale_factor="110" />
+      <Piece id="battania_guard_5"
+             Type="Guard"
+             scale_factor="70" />
+      <Piece id="aserai_grip_10"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="khuzait_pommel_5"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="scutarius_sword"
+               name="{=*}Scutarius Spatha"
+               crafting_template="OneHandedSword"
+                          culture="Culture.empire">
+    <Pieces>
+      <Piece id="empire_blade_2"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="cleaver_guard_4"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="sturgian_grip_8"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="sturgian_pommel_4"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="roranius_sword"
+               name="{=*}Roranius Spatha"
+               crafting_template="OneHandedSword"
+                          culture="Culture.empire">
+    <Pieces>
+      <Piece id="empire_blade_1"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="aserai_guard_5"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="khuzait_grip_20"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="khuzait_pommel_7"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="pilus_sword"
+               name="{=*}Pilus Spatha"
+               crafting_template="OneHandedSword"
+                          culture="Culture.empire">
+    <Pieces>
+      <Piece id="empire_noble_blade_4"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="battania_guard_3"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="vlandian_noble_grip_2"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="empire_noble_pommel_2"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="primus_sword"
+               name="{=*}Primus Spatha"
+               crafting_template="OneHandedSword"
+                          culture="Culture.empire">
+    <Pieces>
+      <Piece id="empire_noble_blade_1"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="empire_noble_guard_3"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="empire_grip_17"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="aserai_noble_pommel_3"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  <CraftedItem id="palatinus_sword"
+               name="{=*}Palatinus Spatha"
+               crafting_template="OneHandedSword"
+                          culture="Culture.empire">
+    <Pieces>
+      <Piece id="empire_blade_7"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="vlandian_guard_8"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="aserai_grip_29"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="empire_pommel_6"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+		<!-- CUSTOM ARROW -->		<!-- CUSTOM ARROW -->		<!-- CUSTOM ARROW -->		<!-- CUSTOM ARROW -->		<!-- CUSTOM ARROW -->		<!-- CUSTOM ARROW -->		<!-- CUSTOM ARROW -->		<!-- CUSTOM ARROW -->
+		
+  <Item id="sagitta"
+        name="{=K5XLb84w}Sagitta"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="arrow_roman_a"
+        holster_mesh="quiver_roman_a"
+        holster_mesh_with_weapon="quiver_roman_a"
+        culture="Culture.empire"
+        weight="0.05"
+        is_merchandise="false"
+        flying_mesh="arrow_bl_flying"
+        appearance="1"
+        Type="Arrows"
+        item_holsters="quiver_back_top:quiver_back_top_2"
+        holster_position_shift="0.0,0.0,0.1">
+    <ItemComponent>
+      <Weapon weapon_class="Arrow"
+              stack_amount="24"
+              thrust_speed="0"
+              speed_rating="0"
+              physics_material="missile"
+              missile_speed="10"
+              weapon_length="97"
+              thrust_damage="3"
+              thrust_damage_type="Pierce"
+              item_usage="arrow_right"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              rotation="0, -80, 25"
+              sticking_position="0,-0.97,0"
+              sticking_rotation="90,0,0"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags Consumable="true"
+                     AmmoSticksWhenShot="true"
+                     AmmoBreaksOnBounceBack="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="sagitta_primus"
+        name="{=K5XLb84w}Sagitta Primus"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="arrow_roman_a"
+        holster_mesh="quiver_roman_a"
+        holster_mesh_with_weapon="quiver_roman_a"
+        culture="Culture.empire"
+        weight="0.05"
+        is_merchandise="false"
+        flying_mesh="arrow_bl_flying"
+        appearance="1"
+        Type="Arrows"
+        item_holsters="quiver_back_top:quiver_back_top_2"
+        holster_position_shift="0.0,0.0,0.1">
+    <ItemComponent>
+      <Weapon weapon_class="Arrow"
+              stack_amount="23"
+              physics_material="missile"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="10"
+              weapon_length="97"
+              thrust_damage="4"
+              thrust_damage_type="Pierce"
+              item_usage="arrow_right"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              rotation="0, -80, 25"
+              sticking_position="0,-0.97,0"
+              sticking_rotation="90,0,0"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags Consumable="true"
+                     AmmoSticksWhenShot="true"
+                     AmmoBreaksOnBounceBack="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+  
+		<!-- CUSTOM BOW -->		<!-- CUSTOM BOW -->		<!-- CUSTOM BOW -->		<!-- CUSTOM BOW -->		<!-- CUSTOM BOW -->		<!-- CUSTOM BOW -->		<!-- CUSTOM BOW -->		<!-- CUSTOM BOW -->
+  
+  <Item id="sagitta_bow"
+        name="{=E7miRMw1}Sagittarius Arcum"
+        body_name="bo_composite_shotbow_b"
+        mesh="shortbow_b"
+        weight="0.3"
+        difficulty="30"
+        appearance="0.4"
+        Type="Bow"
+        item_holsters="bow_hip:bow_hip_2">
+    <ItemComponent>
+      <Weapon weapon_class="Bow"
+              ammo_class="Arrow"
+              ammo_limit="1"
+              thrust_speed="84"
+              speed_rating="87"
+              missile_speed="76"
+              weapon_length="106"
+              accuracy="91"
+              thrust_damage="62"
+              thrust_damage_type="Pierce"
+              item_usage="bow"
+              physics_material="wood_weapon"
+              center_of_mass="0.0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     StringHeldByHand="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     AutoReload="true"
+                     UnloadWhenSheathed="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags ForceAttachOffHandPrimaryItemBone="true" />
+  </Item>
+  <Item id="palatinus_bow"
+        name="{=EO7pCu1b}Palatinus Arcum"
+        body_name="bo_composite_shotbow_f"
+        mesh="shortbow_f"
+        weight="0.8"
+        difficulty="70"
+        appearance="0.1"
+        Type="Bow"
+        item_holsters="bow_hip:bow_hip_2">
+    <ItemComponent>
+      <Weapon weapon_class="Bow"
+              ammo_class="Arrow"
+              ammo_limit="1"
+              thrust_speed="135"
+              speed_rating="94"
+              missile_speed="90"
+              weapon_length="116"
+              accuracy="98"
+              thrust_damage="80"
+              thrust_damage_type="Pierce"
+              item_usage="bow"
+              physics_material="wood_weapon"
+              center_of_mass="0.1,0,-0.15">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     StringHeldByHand="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     AutoReload="true"
+                     UnloadWhenSheathed="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags ForceAttachOffHandPrimaryItemBone="true" />
+  </Item>
+</Items>
