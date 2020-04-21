@@ -15,7 +15,8 @@
 	</SubModules>
 	<Xmls>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="spnpccharacters_polybian"/>
+			<XmlName id="NPCCharacters" 
+				path="spnpccharacters_polybian"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
@@ -23,7 +24,8 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="SPCultures" path="spcultures_polybian"/>
+			<XmlName id="SPCultures" 
+				path="spcultures_polybian"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
@@ -31,22 +33,16 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="partyTemplates" path="partyTemplate_polybian"/>
+			<XmlName id="partyTemplates" 
+				path="partyTemplate_polybian"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="Items" path="spitems_polybian"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="CraftingPieces" path="crafting_pieces_polybian"/>
+			<XmlName id="Items" 
+				path="spitems_polybian"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
@@ -54,10 +50,21 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="CraftingTemplates" path="crafting_templates_polybian"/>
+			<XmlName id="CraftingPieces" 
+				path="crafting_pieces_polybian"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="bandits_polybian"/>
+			<XmlName id="CraftingTemplates" 
+				path="crafting_templates_polybian"/>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" 
+				path="bandits_polybian"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
