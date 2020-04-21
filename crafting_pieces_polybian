@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>	
+
+		<!-- SWORD -->		<!-- SWORD -->		<!-- SWORD -->		<!-- SWORD -->		<!-- SWORD -->		<!-- SWORD -->		<!-- SWORD -->		<!-- SWORD -->		<!-- SWORD -->
+
+  <CraftingPiece id="iria_blade" name="{=dafrn0mR}Iria Blade" tier="5" piece_type="Blade" mesh="empire_blade_7" culture="Culture.vlandia" length="99" weight="0.99">
+    <PieceUsages unavailable_usages="" />
+    <BladeData sharpness="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="empire_blade_7_scabbard_7">
+      <Thrust damage_type="Pierce" damage_factor="3.4" />
+      <Swing damage_type="Cut" damage_factor="3.9" />
+    </BladeData>
+        <Flags>
+        <Flag name="Civilian" type="ItemFlags" />
+		<Flag name="CanBePickedUpFromCorpse" type="ItemFlags" />
+		<Flag name="BonusAgainstShield" />
+        </Flags>
+    <Materials>
+      <Material id="Iron6" count="4" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="empire_noble_guard_3" name="{=fd6Lnv1l}Golden Gladius Guard" tier="5" piece_type="Guard" mesh="empire_noble_guard_3" culture="Culture.empire" length="4.5" weight="0.20">
+    <PieceUsages unavailable_usages="" />
+    <BuildData top_diff="1" />
+    <StatContributions armor_bonus="5" />
+    <Materials>
+      <Material id="Iron5" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="empire_grip_17" name="{=lF10mZnb}Wire Wrapped One Handed Grip" tier="5" piece_type="Handle" mesh="empire_grip_17" culture="Culture.empire" length="17.5" weight="0.10">
+    <PieceUsages unavailable_usages="TwoHandedSword:ThrowingKnife" />
+    <BuildData move_diff="0" top_diff="-0.3" bottom_diff="0.5" />
+    <Materials>
+      <Material id="Iron5" count="2" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="empire_noble_pommel_3" name="{=9Y1zUaE7}Imperial Round Pommel" tier="5" piece_type="Pommel" mesh="empire_noble_pommel_3" culture="Culture.empire" length="6.8" weight="0.2" appearance="0.9">
+    <PieceUsages unavailable_usages="" />
+    <Materials>
+      <Material id="Iron5" count="1" />
+    </Materials>
+  </CraftingPiece>  
+  
+  
+  <CraftingPiece id="gladius_blade" name="{=zAdloN6Y}Gladius Blade" tier="3" piece_type="Blade" mesh="battania_blade_4" culture="Culture.empire" length="60" weight="0.69">
+    <PieceUsages unavailable_usages="" />
+    <BladeData sharpness="3" physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="2.7" />
+      <Swing damage_type="Cut" damage_factor="3.6" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="3" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="aserai_guard_5" name="{=cuxuEx40}Faceted Oval Guard" tier="3" piece_type="Guard" mesh="aserai_guard_5" culture="Culture.aserai" length="4.017" weight="0.201">
+    <PieceUsages unavailable_usages="" />
+    <BuildData top_diff="0.2" />
+    <StatContributions armor_bonus="3" />
+    <Materials>
+      <Material id="Iron3" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="empire_grip_4" name="{=Knv8oS4x}Leather Wrapped Thick One Handed Grip" tier="3" piece_type="Handle" mesh="empire_grip_4" culture="Culture.empire" length="15.3" weight="0.1">
+    <PieceUsages unavailable_usages="TwoHandedSword" />
+    <BuildData move_diff="-0.14" bottom_diff="0.3" />
+    <Materials>
+      <Material id="Iron3" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="sturgian_pommel_1" name="{=aGtEhibt}Northern Round Pommel" tier="3" piece_type="Pommel" mesh="sturgian_pommel_1" culture="Culture.sturgia" length="3.539" weight="0.150">
+    <PieceUsages unavailable_usages="" />
+    <Materials>
+      <Material id="Iron3" count="1" />
+    </Materials>
+  </CraftingPiece>
+  
+  
+  <CraftingPiece id="gladius_senatus_blade" name="{=pX4nTZOI}Gladius Senatus Blade" tier="4" piece_type="Blade" mesh="battania_blade_4" culture="Culture.empire" length="65" weight="1.1">
+    <PieceUsages unavailable_usages="" />
+    <BladeData sharpness="3" physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="2.6" />
+      <Swing damage_type="Cut" damage_factor="3.9" />
+    </BladeData>
+    <Materials>
+      <Material id="Iron5" count="5" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="khuzait_guard_8" name="{=BtXFrrVj}Thick Concave Guard" tier="4" piece_type="Guard" mesh="khuzait_guard_8" culture="Culture.khuzait" length="1.64" weight="0.28">
+    <PieceUsages unavailable_usages="" />
+    <BuildData top_diff="0.2" />
+    <StatContributions armor_bonus="4" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="empire_grip_2" name="{=yUyJ39ot}Steel Bound Spatha Grip" tier="4" piece_type="Handle" mesh="empire_grip_2" culture="Culture.empire" length="17" weight="0.15">
+    <PieceUsages unavailable_usages="TwoHandedSword" />
+    <BuildData move_diff="-0.79" top_diff="0" bottom_diff="0.9" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="aserai_pommel_6" name="{=bEQETxjB}Ridged Pommel" tier="4" piece_type="Pommel" mesh="aserai_pommel_6" culture="Culture.aserai" length="4.038" weight="0.181">
+    <PieceUsages unavailable_usages="ThrowingKnife" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  
+  
+  <CraftingPiece id="gladius_augustus_blade" name="{=RdVX1jC0}Gladius Augustus Blade" tier="5" piece_type="Blade" mesh="aserai_noble_blade_3" culture="Culture.empire" length="70" weight="0.9">
+    <PieceUsages unavailable_usages="" />
+    <BladeData sharpness="3" physics_material="metal_weapon" body_name="bo_sword_one_handed">
+      <Thrust damage_type="Pierce" damage_factor="2.6" />
+      <Swing damage_type="Cut" damage_factor="4.2" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron6" count="3" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="battania_dagger_guard_5" name="{=qjxXq3P5}Etched Highland Dagger Guard" tier="3" piece_type="Guard" mesh="battania_guard_5" culture="Culture.battania" length="5.7" weight="0.097">
+    <PieceUsages unavailable_usages="" />
+    <BuildData top_diff="0.6" />
+    <StatContributions armor_bonus="2" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="khuzait_noble_grip_2" name="{=bPUXlfs8}Decorated Eastern Ild Grip" tier="5" piece_type="Handle" mesh="khuzait_noble_grip_2" culture="Culture.khuzait" length="15" weight="0.200">
+    <PieceUsages unavailable_usages="" />
+    <BuildData move_diff="-6.75" bottom_diff="0.35" top_diff="0.5" />
+    <Materials>
+      <Material id="Iron5" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="vlandian_pommel_9" name="{=ugQrq53t}Fan Pommel" tier="5" piece_type="Pommel" mesh="vlandian_pommel_9" culture="Culture.vlandia" length="5.275" weight="0.2">
+    <PieceUsages unavailable_usages="ThrowingKnife" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  
+		<!-- JAVELIN -->		<!-- JAVELIN -->		<!-- JAVELIN -->		<!-- JAVELIN -->		<!-- JAVELIN -->		<!-- JAVELIN -->		<!-- JAVELIN -->		<!-- JAVELIN -->
+
+  <CraftingPiece id="pilum_basic" name="{=nr3K4od2}Pilum Basic" tier="4" piece_type="Blade" mesh="spear_blade_38" length="23.7" weight="0.0744" excluded_item_usage_features="swing">
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable" />
+    <BladeData sharpness="3" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="throwing_spear_quiver_3_1" holster_body_name="bo_throwing_spear_quiver_3_1" holster_mesh_length="96.8">
+      <Thrust damage_type="Pierce" damage_factor="2.5" />
+    </BladeData>
+    <Flags>
+      <Flag name="BonusAgainstShield" />
+    </Flags>
+    <Materials>
+      <Material id="Iron3" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_guard_7" name="{=ltbHzq5B}Riveted Spear Head Reinforcement" tier="4" piece_type="Guard" mesh="spear_guard_7" culture="Culture.empire" length="7.4" weight="0">
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_handle_9" name="{=DXLlcbf9}Ash Javelin Shaft" tier="2" piece_type="Handle" mesh="spear_handle_9" length="82.3" weight="0.6" excluded_item_usage_features="long" CraftingCost="80">
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable" />
+  </CraftingPiece>
+  
+  
+  <CraftingPiece id="pilum_legionarius" name="{=Oxew9WCe}Pilum Legionarius" tier="2" piece_type="Blade" mesh="spear_blade_1" length="48" weight="0.3384" excluded_item_usage_features="swing">
+    <PieceUsages unavailable_usages="" />
+    <BladeData sharpness="2" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="throwing_spear_quiver_5_1" holster_body_name="bo_throwing_spear_quiver_5_1" holster_mesh_length="96.2">
+      <Thrust damage_type="Pierce" damage_factor="2.2" />
+    </BladeData>
+    <Flags>
+      <Flag name="BonusAgainstShield" />
+    </Flags>
+    <Materials>
+      <Material id="Iron2" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_guard_7" name="{=ltbHzq5B}Riveted Spear Head Reinforcement" tier="4" piece_type="Guard" mesh="spear_guard_7" culture="Culture.empire" length="7.4" weight="0">
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_handle_10" name="{=aaEv3sBU}Oaken Javelin Shaft" tier="3" piece_type="Handle" mesh="spear_handle_10" length="86.7" weight="0.7" excluded_item_usage_features="long" CraftingCost="80">
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_pommel_5" name="{=E7cNp0rF}Riveted Spear Pommel" tier="4" piece_type="Pommel" mesh="spear_pommel_5" culture="Culture.empire" length="3" weight="0">
+    <PieceUsages unavailable_usages="" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  
+  <CraftingPiece id="pilum_elite" name="{=9aYBy1RN}Pilum Elite" tier="3" piece_type="Blade" mesh="spear_blade_14" length="46.28" weight="0.3768" excluded_item_usage_features="swing">
+    <PieceUsages unavailable_usages="" />
+    <BladeData sharpness="2" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="throwing_spear_quiver_5_1" holster_body_name="bo_throwing_spear_quiver_5_1" holster_mesh_length="96.2">
+      <Thrust damage_type="Pierce" damage_factor="2.4" />
+    </BladeData>
+     <Flags>
+      <Flag name="BonusAgainstShield" />
+    </Flags>
+    <Materials>
+      <Material id="Iron3" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_guard_7" name="{=ltbHzq5B}Riveted Spear Head Reinforcement" tier="4" piece_type="Guard" mesh="spear_guard_7" culture="Culture.empire" length="7.4" weight="0">
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_handle_11" name="{=gIm5Lnh8}Mahogany Javelin Shaft" tier="3" piece_type="Handle" mesh="spear_handle_11" length="90" weight="0.866" excluded_item_usage_features="long" CraftingCost="80">
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_pommel_5" name="{=E7cNp0rF}Riveted Spear Pommel" tier="4" piece_type="Pommel" mesh="spear_pommel_5" culture="Culture.empire" length="3" weight="0">
+    <PieceUsages unavailable_usages="" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="electum_blade" name="{=9aYBy1RN}Electum Blade" tier="4" piece_type="Blade" mesh="spear_blade_42" length="42" weight="0.2456" excluded_item_usage_features="swing">
+    <PieceUsages unavailable_usages="" />
+    <BladeData sharpness="5" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="throwing_spear_quiver_2" holster_body_name="bo_throwing_spear_quiver_2" holster_mesh_length="96.2">
+      <Thrust damage_type="Pierce" damage_factor="2.5" />
+    </BladeData>
+     <Flags>
+      <Flag name="BonusAgainstShield" />
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="2" />
+    </Materials>
+  </CraftingPiece>  
+  <CraftingPiece id="spear_guard_7" name="{=ltbHzq5B}Riveted Spear Head Reinforcement" tier="4" piece_type="Guard" mesh="spear_guard_7" culture="Culture.empire" length="7.4" weight="0">
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_handle_11" name="{=gIm5Lnh8}Mahogany Javelin Shaft" tier="3" piece_type="Handle" mesh="spear_handle_11" length="90" weight="0.866" excluded_item_usage_features="long" CraftingCost="80">
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_pommel_5" name="{=E7cNp0rF}Riveted Spear Pommel" tier="4" piece_type="Pommel" mesh="spear_pommel_5" culture="Culture.empire" length="3" weight="0">
+    <PieceUsages unavailable_usages="" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+		
+		<!-- SPEAR -->		<!-- SPEAR -->		<!-- SPEAR -->		<!-- SPEAR -->		<!-- SPEAR -->		<!-- SPEAR -->		<!-- SPEAR -->		<!-- SPEAR -->		<!-- SPEAR -->		<!-- SPEAR -->
+
+  <CraftingPiece id="spear_blade_15" name="{=Y4tIQnS4}Short Simple Spear Head" tier="2" piece_type="Blade" mesh="spear_blade_15" length="22.862" weight="0.2136" excluded_item_usage_features="swing">
+    <PieceUsages unavailable_usages="" />
+    <BladeData sharpness="4" physics_material="wood_weapon" body_name="bo_spear_b" holster_mesh="throwing_spear_quiver_1_1" holster_body_name="bo_throwing_spear_quiver_1_1" holster_mesh_length="68.9">
+      <Thrust damage_type="Pierce" damage_factor="1.7" />
+    </BladeData>
+    <Materials>
+      <Material id="Iron2" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_guard_20" name="{=YwKrIR6s}Double Huge Hooks With Fur Covering" tier="4" piece_type="Guard" mesh="spear_guard_20" culture="Culture.empire" length="0" weight="0">
+    <PieceUsages unavailable_usages="" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="draconarius_handle" name="{=8yb60cDi}Draconarius Shaft" tier="4" piece_type="Handle" mesh="spear_handle_24" length="260" weight="1.6">
+    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
+    <BuildData move_diff="22.9" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="spear_pommel_10" name="{=he3725oa}Conical Spear Pommel" tier="4" piece_type="Pommel" mesh="spear_pommel_10" culture="Culture.empire" length="8.3" weight="0">
+    <PieceUsages unavailable_usages="" />
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>  
+</CraftingPieces>
