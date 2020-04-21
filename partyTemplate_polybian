@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+	  <MBPartyTemplate id="polybian_kingdom_hero_party_empire_template" >
+    <stacks>
+      <PartyTemplateStack min_value="16" max_value="20" troop="NPCCharacter.princeps" />
+      <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.hastati" />
+
+      <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.triarii" />
+      <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.legionarius" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.securifer_illyricum" />
+      <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.praetoriae" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.kluddacorius" />
+	  
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.cohortis_praetoriae" />	  
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.cohortis_triumphalis" />
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.triarius_honorianus" />
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.insidiator_ipsimus" />
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.scutarius_pilus" />
+	  
+      <PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.tiro_sagittarius" />	  
+      <PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.arcuarius" />
+      <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.sagittarius" />
+      <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.manuballistus" />
+      <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.arcuarius_exercitatus" />
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.cohortis_manuballistus" />
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.cohortis_sagittarius" />
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.arcanus" />
+	  
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.celer" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.socii_equites" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.eques_speculator" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.eques_explorator" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.foederatus" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.contarius" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.auxiliary_bucellarii" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.eques_draconarius" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cataphractarius" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.clibanarius" />
+    </stacks>
+  </MBPartyTemplate>
+  
+  <!--MILITIA TEMPLATES--> 
+  
+  <MBPartyTemplate id="polybian_militia_empire_template" >
+      <stacks>
+        <PartyTemplateStack min_value="12" max_value="20" troop="NPCCharacter.civis" />
+        <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.vigil" />
+        <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.roranius" />
+        <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.roranius_veterani" />
+        <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.urbani" />
+      </stacks>
+    </MBPartyTemplate>
+	
+  <!--CARAVAN TEMPLATES--> 
+  
+  <MBPartyTemplate id="polybian_caravan_template_empire" >
+    <stacks>
+      <PartyTemplateStack  min_value="4" max_value="8" troop="NPCCharacter.tiro_custos" />
+      <PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.tiro_archiatroi" />
+      <PartyTemplateStack  min_value="2" max_value="4" troop="NPCCharacter.custos" />
+      <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.archiatroi" />
+    </stacks>
+    </MBPartyTemplate>
+  <MBPartyTemplate id="polybian_elite_caravan_template_empire" >
+    <stacks>
+      <PartyTemplateStack  min_value="4" max_value="8" troop="NPCCharacter.tiro_custos" />
+      <PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.tiro_archiatroi" />
+      <PartyTemplateStack  min_value="2" max_value="4" troop="NPCCharacter.custos" />
+      <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.archiatroi" />
+      <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.custos_eques" />
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.archiatroi_eques" />
+    </stacks>
+  </MBPartyTemplate>
+  
+    <!--LOOTERS TEMPLATES  NOT NEEDED IF I DON'T CREAT CUSTOM UNITS > SAME FOR DESERTERS AND VILLAGERS
+
+    <MBPartyTemplate id="looters_template" >
+        <stacks>
+            <PartyTemplateStack min_value="6" max_value="36" troop="NPCCharacter.looter" />
+        </stacks>
+    </MBPartyTemplate> -->
+</partyTemplates>
