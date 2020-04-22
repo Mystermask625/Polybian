@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <!-- #endregion -->
-  <!-- #region Roman Troops -->
+  <!-- #FACTION Roman Troops -->
+
   <!-- #Militia -->
+
   <NPCCharacter id="horseman" 
     default_group="Cavalry" 
     level="11" 
@@ -61,9 +62,10 @@
       id="Item.t2_empire_horse" />
     <equipment slot="HorseHarness" 
       id="Item.chain_horse_harness" />
-    <!---<equipment slot="Leg" id="Item.cape" />-->
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets>
+    </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="archer" 
     default_group="Ranged" 
     level="11" 
@@ -117,6 +119,7 @@
         id="Item.strapped_leather_boots" />
     </equipmentSet>
   </NPCCharacter>
+
   <NPCCharacter id="coop_character" 
     default_group="Infantry" 
     level="11" 
@@ -206,6 +209,7 @@
       <skill id="Throwing" 
         value="25" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.peasant_hatchet_1_t1" />
@@ -254,11 +258,13 @@
       <equipment slot="Leg" 
         id="Item.leather_shoes" />
     </equipmentSet>
+
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.miles" />
       <upgrade_target id="NPCCharacter.accensi" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="miles" 
     default_group="Infantry" 
     level="11" 
@@ -287,6 +293,7 @@
       <skill id="Throwing" 
         value="50" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.imperial_throwing_spear_1_t4" />
@@ -299,11 +306,161 @@
       <equipment slot="Leg" 
         id="Item.empire_horseman_boots" />
     </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.banner_big" />
+      <!--BANNER ITEM-->
+      <equipment slot="Item1" 
+        id="Item.bound_desert_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.imperial_throwing_spear_1_t4" />
+      <equipment slot="Item3" 
+        id="Item.civis_gladius" />
+      <equipment slot="Body" 
+        id="Item.empire_short_dress" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+    </equipmentSet>
+
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.princeps" />
       <upgrade_target id="NPCCharacter.hastati" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="princeps" 
     default_group="Infantry" 
     level="16" 
@@ -338,6 +495,7 @@
       <skill id="Throwing" 
         value="70" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.gladius_princeps" />
@@ -354,11 +512,207 @@
       <equipment slot="Head" 
         id="tall_helmet" />
     </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Item3" 
+        id="Item.pila_princeps" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Item3" 
+        id="Item.pila_princeps" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Item3" 
+        id="Item.pila_princeps" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Item3" 
+        id="Item.pila_princeps" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Item3" 
+        id="Item.pila_princeps" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Item3" 
+        id="Item.pila_princeps" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Item3" 
+        id="Item.pila_princeps" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Item3" 
+        id="Item.pila_princeps" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Item3" 
+        id="Item.pila_princeps" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Item3" 
+        id="Item.pila_princeps" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Item3" 
+        id="Item.pila_princeps" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.banner_big" />
+      <!--BANNER ITEM-->
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.gladius_princeps" />
+      <equipment slot="Item3" 
+        id="Item.princeps_pilum" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Leg" 
+        id="Item.steppe_leather_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+    </equipmentSet>
+
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.legionarius" />
       <upgrade_target id="NPCCharacter.praetoriae" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="legionarius" 
     default_group="Infantry" 
     level="21" 
@@ -393,6 +747,7 @@
       <skill id="Throwing" 
         value="100" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.gladius_senatus" />
@@ -411,10 +766,232 @@
       <equipment slot="Head" 
         id="helmet_with_faceguard" />
     </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.banner_big" />
+      <!--BANNER ITEM-->
+      <equipment slot="Item1" 
+        id="Item.footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.legionarius_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Gloves" 
+        id="Item.reinforced_mail_mitten" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+    </equipmentSet>
+
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.cohortis_triumphalis" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="praetoriae" 
     default_group="Infantry" 
     level="21" 
@@ -449,6 +1026,7 @@
       <skill id="Throwing" 
         value="100" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.empire_mace_2_t4" />
@@ -469,10 +1047,255 @@
       <equipment slot="Cape" 
         id="Item.pauldron_cape_a" />
     </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item1" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item1" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item1" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item1" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item1" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item1" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item1" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item1" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item1" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item1" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item1" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item2" 
+        id="Item.gladius_senatus" />
+      <equipment slot="Item3" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.banner_big" />
+      <!--BANNER ITEM-->
+      <equipment slot="Item1" 
+        id="Item.eastern_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.empire_mace_2_t4" />
+      <equipment slot="Item3" 
+        id="Item.gladius_senatus" />
+
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar_over_leather" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="Item.ridged_northernhelm" />
+      <equipment slot="Cape" 
+        id="Item.pauldron_cape_a" />
+    </equipmentSet>
+
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.cohortis_praetoriae" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="cohortis_triumphalis" 
     default_group="Infantry" 
     level="26" 
@@ -507,6 +1330,7 @@
       <skill id="Throwing" 
         value="130" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.gladius_augustus" />
@@ -525,10 +1349,232 @@
       <equipment slot="Cape" 
         id="imperial_lamellar_shoulders" />
     </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.banner_big" />
+      <!--BANNER ITEM-->
+      <equipment slot="Item1" 
+        id="Item.stronger_footmans_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item3" 
+        id="Item.legionarius_elite_pilum" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_lamellar_shoulders" />
+    </equipmentSet>
+
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.palatinus_constantinus" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="palatinus_constantinus" 
     default_group="Infantry" 
     level="31" 
@@ -556,13 +1602,14 @@
         value="80" />
       <skill id="Polearm" 
         value="80" />
-      <skill id="Bow" 
-        value="60" />
       <skill id="Crossbow" 
+        value="60" />
+      <skill id="Bow" 
         value="60" />
       <skill id="Throwing" 
         value="150" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.primus_sword" />
@@ -579,8 +1626,206 @@
       <equipment slot="Cape" 
         id="rough_bearskin" />
     </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_sword" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_sword" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_sword" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_sword" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_sword" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_sword" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_sword" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_sword" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_sword" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_sword" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_sword" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.banner_big" />
+      <!--BANNER ITEM-->
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.primus_sword" />
+      <equipment slot="Body" 
+        id="Item.eastern_lamellar_armor" />
+      <equipment slot="Gloves" 
+        id="Item.decorated_imperial_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.decorated_imperial_boots" />
+      <equipment slot="Head" 
+        id="empire_lord_helmet" />
+      <equipment slot="Cape" 
+        id="rough_bearskin" />
+    </equipmentSet>
+
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="cohortis_praetoriae" 
     default_group="Infantry" 
     level="26" 
@@ -615,6 +1860,7 @@
       <skill id="Throwing" 
         value="130" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.gladius_augustus" />
@@ -635,8 +1881,252 @@
       <equipment slot="Cape" 
         id="imperial_studded_strip_shoulders" />
     </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Item2" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item3" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Item2" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item3" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Item2" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item3" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Item2" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item3" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Item2" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item3" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Item2" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item3" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Item2" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item3" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Item2" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item3" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Item2" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item3" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Item2" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item3" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item1" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Item2" 
+        id="Item.praetorian_spear" />
+      <equipment slot="Item3" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.banner_big" />
+      <!--BANNER ITEM-->
+      <equipment slot="Item1" 
+        id="Item.stronger_eastern_wicker_shield" />
+      <equipment slot="Item2" 
+        id="Item.gladius_augustus" />
+      <equipment slot="Item3" 
+        id="Item.pernach_mace_t3" />
+      <equipment slot="Body" 
+        id="Item.imperial_lamellar" />
+      <equipment slot="Gloves" 
+        id="Item.lamellar_plate_gauntlets" />
+      <equipment slot="Leg" 
+        id="Item.lamellar_plate_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="imperial_studded_strip_shoulders" />
+    </equipmentSet>
+
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="hastati" 
     default_group="HeavyInfantry" 
     level="16" 
@@ -671,6 +2161,7 @@
       <skill id="Throwing" 
         value="70" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.empire_polearm_1_t4" />
@@ -687,10 +2178,208 @@
       <equipment slot="Cape" 
         id="Item.wrapped_scarf" />
     </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.banner_big" />
+      <!--BANNER ITEM-->
+      <equipment slot="Item1" 
+        id="Item.desert_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.empire_polearm_1_t4" />
+      <equipment slot="Body" 
+        id="Item.empire_warrior_padded_armor_c" />
+      <equipment slot="Leg" 
+        id="Item.empire_horseman_boots" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Head" 
+        id="helmet_with_faceguard" />
+      <equipment slot="Cape" 
+        id="Item.wrapped_scarf" />
+    </equipmentSet>
+
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.triarii" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="triarii" 
     default_group="HeavyInfantry" 
     level="21" 
@@ -725,6 +2414,7 @@
       <skill id="Throwing" 
         value="60" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.empire_polearm_2_t5" />
@@ -741,10 +2431,208 @@
       <equipment slot="Cape" 
         id="Item.empire_warrior_padded_armor_shoulder" />
     </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.banner_big" />
+      <!--BANNER ITEM-->
+      <equipment slot="Item1" 
+        id="Item.southern_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.empire_polearm_2_t5" />
+      <equipment slot="Body" 
+        id="Item.imperial_mail_over_stripped_leather" />
+      <equipment slot="Gloves" 
+        id="Item.guarded_padded_vambrace" />
+      <equipment slot="Leg" 
+        id="Item.leather_cavalier_boots" />
+      <equipment slot="Head" 
+        id="tall_helmet" />
+      <equipment slot="Cape" 
+        id="Item.empire_warrior_padded_armor_shoulder" />
+    </equipmentSet>
+
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.triarius_honorianus" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="triarius_honorianus" 
     default_group="HeavyInfantry" 
     level="26" 
@@ -779,6 +2667,7 @@
       <skill id="Throwing" 
         value="80" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.triarius_lance" />
@@ -795,10 +2684,208 @@
       <equipment slot="Cape" 
         id="Item.rough_bearskin" />
     </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.triarius_lance" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.triarius_lance" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.triarius_lance" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.triarius_lance" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.triarius_lance" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.triarius_lance" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.triarius_lance" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.triarius_lance" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.triarius_lance" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.triarius_lance" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.triarius_lance" />
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.banner_big" />
+      <!--BANNER ITEM-->
+      <equipment slot="Item1" 
+        id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.triarius_lance" />
+      <equipment slot="Body" 
+        id="Item.legionary_mail" />
+      <equipment slot="Gloves" 
+        id="Item.lordly_mail_mitten" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_leather_boots" />
+      <equipment slot="Head" 
+        id="plumed_helmet" />
+      <equipment slot="Cape" 
+        id="Item.rough_bearskin" />
+    </equipmentSet>
+
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.contiger_evocatus" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="contiger_evocatus" 
     default_group="HeavyInfantry" 
     level="31" 
@@ -833,6 +2920,7 @@
       <skill id="Throwing" 
         value="80" />
     </skills>
+
     <equipmentSet>
       <equipment slot="Item0" 
         id="Item.primus_lance" />
@@ -847,6 +2935,179 @@
       <equipment slot="Cape" 
         id="Item.rough_bearskin" />
     </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_lance" />
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_lance" />
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_lance" />
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_lance" />
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_lance" />
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_lance" />
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_lance" />
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_lance" />
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_lance" />
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_lance" />
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.primus_lance" />
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+
+    <equipmentSet>
+      <equipment slot="Item0" 
+        id="Item.banner_big" />
+      <!--BANNER ITEM-->
+      <equipment slot="Item1" 
+        id="Item.northern_round_shield" />
+      <equipment slot="Item2" 
+        id="Item.primus_lance" />
+      <equipment slot="Body" 
+        id="Item.desert_scale_armor" />
+      <equipment slot="Leg" 
+        id="Item.wrapped_shoes" />
+      <equipment slot="Head" 
+        id="empire_guarded_lord_helmet" />
+      <equipment slot="Cape" 
+        id="Item.battania_shoulder_strap" />
+    </equipmentSet>
+
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
 
@@ -915,6 +3176,7 @@
       <upgrade_target id="NPCCharacter.eques_explorator" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="celer" 
     default_group="Cavalry" 
     level="16" 
@@ -976,6 +3238,7 @@
       <upgrade_target id="NPCCharacter.foederatus" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="foederatus" 
     default_group="Cavalry" 
     level="21" 
@@ -1037,6 +3300,7 @@
       <upgrade_target id="NPCCharacter.contarius" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="eques_explorator" 
     default_group="LightCavalry" 
     level="16" 
@@ -1096,6 +3360,7 @@
       <upgrade_target id="NPCCharacter.eques_speculator" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="eques_speculator" 
     default_group="LightCavalry" 
     level="21" 
@@ -1159,6 +3424,7 @@
       <upgrade_target id="NPCCharacter.eques_draconarius" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="eques_draconarius" 
     default_group="LightCavalry" 
     level="26" 
@@ -1217,6 +3483,7 @@
       id="Item.stripped_leather_harness" />
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="contarius" 
     default_group="HeavyCavalry" 
     level="26" 
@@ -1278,6 +3545,7 @@
       <upgrade_target id="NPCCharacter.cataphractarius" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="clibanarius" 
     default_group="HeavyCavalry" 
     level="31" 
@@ -1335,6 +3603,7 @@
     <equipment slot="HorseHarness" 
       id="Item.imperial_scale_barding" />
   </NPCCharacter>
+
   <NPCCharacter id="cataphractarius" 
     default_group="HeavyCavalry" 
     level="31" 
@@ -1370,12 +3639,12 @@
         value="25" />
     </skills>
     <equipmentSet>
-      <equipment slot="Item3" 
-        id="Item.palatinus_sword" />
-      <equipment slot="Item2" 
-        id="Item.jousting_shield" />
       <equipment slot="Item0" 
         id="Item.empire_lance_3_t5" />
+      <equipment slot="Item1" 
+        id="Item.jousting_shield" />
+      <equipment slot="Item2" 
+        id="Item.palatinus_sword" />
       <equipment slot="Head" 
         id="Item.imperial_goggled_helmet" />
       <equipment slot="Cape" 
@@ -1442,6 +3711,7 @@
       <upgrade_target id="NPCCharacter.tiro_sagittarius" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="leves" 
     default_group="Skirmisher" 
     level="16" 
@@ -1494,6 +3764,7 @@
       <upgrade_target id="NPCCharacter.velites" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="velites" 
     default_group="Skirmisher" 
     level="21" 
@@ -1549,6 +3820,7 @@
       <upgrade_target id="NPCCharacter.veles_electum" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="veles_electum" 
     default_group="Skirmisher" 
     level="26" 
@@ -1663,6 +3935,7 @@
       <upgrade_target id="NPCCharacter.manuballistus" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sagittarius" 
     default_group="Ranged" 
     level="21" 
@@ -1719,6 +3992,7 @@
       <upgrade_target id="NPCCharacter.cohortis_sagittarius" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="cohortis_sagittarius" 
     default_group="Ranged" 
     level="26" 
@@ -1778,6 +4052,7 @@
       <upgrade_target id="NPCCharacter.sagittarius_evocatus" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="sagittarius_evocatus" 
     default_group="Ranged" 
     level="31" 
@@ -1834,6 +4109,7 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="manuballistus" 
     default_group="Ranged" 
     level="21" 
@@ -1890,6 +4166,7 @@
       <upgrade_target id="NPCCharacter.cohortis_manuballistus" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="cohortis_manuballistus" 
     default_group="Ranged" 
     level="26" 
@@ -1993,6 +4270,7 @@
       <upgrade_target id="NPCCharacter.socii_equites" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="auxiliary_lanciarius" 
     default_group="Infantry" 
     level="11" 
@@ -2032,7 +4310,7 @@
         id="Item.civis_gladius" />
       <equipment slot="Item1" 
         id="Item.imperial_throwing_spear_1_t4" />
-      <equipment slot="Item3" 
+      <equipment slot="Item2" 
         id="Item.bound_adarga" />
       <equipment slot="Body" 
         id="Item.padded_leather_shirt" />
@@ -2048,6 +4326,7 @@
       <upgrade_target id="NPCCharacter.auxiliary_calvary" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="auxiliary_hoplites" 
     default_group="Infantry" 
     level="16" 
@@ -2100,6 +4379,7 @@
       <upgrade_target id="NPCCharacter.securifer_illyricum" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="kluddacorius" 
     default_group="Infantry" 
     level="21" 
@@ -2144,6 +4424,7 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="securifer_illyricum" 
     default_group="Infantry" 
     level="21" 
@@ -2190,6 +4471,7 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="auxiliary_calvary" 
     default_group="Cavalry" 
     level="16" 
@@ -2246,6 +4528,7 @@
       <upgrade_target id="NPCCharacter.auxiliary_bucellarii" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="auxiliary_bucellarii" 
     default_group="HorseArcher" 
     level="21" 
@@ -2282,14 +4565,14 @@
         value="90" />
     </skills>
     <equipmentSet>
-      <equipment slot="Item3" 
-        id="Item.pilus_sword" />
-      <equipment slot="Item1" 
-        id="Item.bodkin_arrows_a" />
       <equipment slot="Item0" 
         id="Item.steppe_war_bow" />
+      <equipment slot="Item1" 
+        id="Item.bodkin_arrows_a" />
       <equipment slot="Item2" 
         id="Item.bodkin_arrows_a" />
+      <equipment slot="Item3" 
+        id="Item.pilus_sword" />
       <equipment slot="Body" 
         id="Item.empire_horseman_armor" />
       <equipment slot="Gloves" 
@@ -2309,6 +4592,7 @@
       <upgrade_target id="NPCCharacter.palatinus_bucellarius" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="palatinus_bucellarius" 
     default_group="HorseArcher" 
     level="26" 
@@ -2421,6 +4705,7 @@
       <upgrade_target id="NPCCharacter.vigil" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="roranius" 
     default_group="Skirmisher" 
     level="11" 
@@ -2479,6 +4764,7 @@
       <upgrade_target id="NPCCharacter.roranius_veterani" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="roranius_veterani" 
     default_group="Ranged" 
     level="16" 
@@ -2533,6 +4819,7 @@
     </equipmentSet>
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="vigil" 
     default_group="Infantry" 
     level="11" 
@@ -2589,6 +4876,7 @@
       <upgrade_target id="NPCCharacter.urbani" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="urbani" 
     default_group="Infantry" 
     level="16" 
@@ -2696,6 +4984,7 @@
       <upgrade_target id="NPCCharacter.custos" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="custos" 
     default_group="Ranged" 
     level="16" 
@@ -2749,6 +5038,7 @@
       <upgrade_target id="NPCCharacter.custos_eques" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="custos_eques" 
     default_group="Cavalry" 
     level="21" 
@@ -2802,6 +5092,7 @@
       id="Item.camel_saddle" />
     <upgrade_targets></upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="tiro_archiatroi" 
     default_group="Infantry" 
     level="11" 
@@ -2850,6 +5141,7 @@
       <upgrade_target id="NPCCharacter.archiatroi" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="archiatroi" 
     default_group="Infantry" 
     level="16" 
@@ -2900,6 +5192,7 @@
       <upgrade_target id="NPCCharacter.archiatroi_eques" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="archiatroi_eques" 
     default_group="Cavalry" 
     level="21" 
@@ -2964,6 +5257,7 @@
       <upgrade_target id="NPCCharacter.verutus" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="verutus" 
     default_group="Infantry" 
     level="6" 
@@ -3019,6 +5313,7 @@
       <upgrade_target id="NPCCharacter.arcuarius" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="arcuarius" 
     default_group="Ranged" 
     level="11" 
@@ -3075,6 +5370,7 @@
       <upgrade_target id="NPCCharacter.arcuarius_exercitatus" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="arcuarius_exercitatus" 
     default_group="Ranged" 
     level="16" 
@@ -3132,6 +5428,7 @@
       <upgrade_target id="NPCCharacter.arcanus" />
     </upgrade_targets>
   </NPCCharacter>
+
   <NPCCharacter id="arcanus" 
     default_group="Ranged" 
     level="21" 
@@ -3186,6 +5483,7 @@
       <equipment slot="Cape" 
         id="Item.scarf" />
     </equipmentSet>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets>
+    </upgrade_targets>
   </NPCCharacter>
 </NPCCharacters>
