@@ -4428,7 +4428,7 @@
       <skill id="Bow"
              value="45" />
       <skill id="Crossbow"
-             value="110" />
+             value="130" />
       <skill id="Throwing"
              value="45" />
     </skills>
@@ -4484,7 +4484,7 @@
       <skill id="Bow"
              value="80" />
       <skill id="Crossbow"
-             value="140" />
+             value="160" />
       <skill id="Throwing"
              value="60" />
     </skills>
