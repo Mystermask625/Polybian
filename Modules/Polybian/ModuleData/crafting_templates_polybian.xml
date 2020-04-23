@@ -1,231 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CraftingTemplates>
 
-  <!-- #CUSTOM SWORDS -->
+ 		<!-- CUSTOM SWORD --> 		<!-- CUSTOM SWORD --> 		<!-- CUSTOM SWORD --> 		<!-- CUSTOM SWORD --> 		<!-- CUSTOM SWORD --> 		<!-- CUSTOM SWORD --> 		<!-- CUSTOM SWORD --> 		<!-- CUSTOM SWORD -->
 
-  <CraftingTemplate id="iria_griffon" 
-    item_modifier_group="sword" 
-    item_holsters="sword_back:sword_back_2:sword_back_3:sword_back_4" 
-    piece_type_to_scale_holster_with="Blade" 
-    hidden_piece_types_on_holster="Blade" 
-    default_item_holster_position_offset="0,0,-0.1">
+<CraftingTemplate id="iria_griffon" 
+					item_modifier_group="sword" 
+					item_holsters="sword_back:sword_back_2:sword_back_3:sword_back_4" 
+					piece_type_to_scale_holster_with="Blade" 
+					hidden_piece_types_on_holster="Blade" 
+					default_item_holster_position_offset="0,0,-0.1">
     <PieceDatas>
-      <PieceData piece_type="Handle" 
-        build_order="0"/>
-      <PieceData piece_type="Guard" 
-        build_order="1"/>
-      <PieceData piece_type="Blade" 
-        build_order="2"/>
-      <PieceData piece_type="Pommel" 
-        build_order="-1"/>
+      <PieceData piece_type="Handle" build_order="0"/>
+      <PieceData piece_type="Guard" build_order="1"/>
+      <PieceData piece_type="Blade" build_order="2"/>
+      <PieceData piece_type="Pommel" build_order="-1"/>
     </PieceDatas>
     <WeaponUsageDatas>
       <WeaponUsageData id="OneHandedSword"/>
     </WeaponUsageDatas>
     <StatsData>
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="ThrustSpeed" 
-        max_value="200"/>
-      <StatData stat_type="SwingSpeed" 
-        max_value="200"/>
-      <StatData stat_type="ThrustDamage" 
-        max_value="500"/>
-      <StatData stat_type="SwingDamage" 
-        max_value="500"/>
-      <StatData stat_type="Handling" 
-        max_value="200"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="ThrustSpeed" max_value="200"/>
+      <StatData stat_type="SwingSpeed" max_value="200"/>
+      <StatData stat_type="ThrustDamage" max_value="500"/>
+      <StatData stat_type="SwingDamage" max_value="500"/>
+      <StatData stat_type="Handling" max_value="200"/>
     </StatsData>
     <UsablePieces>
       <UsablePiece piece_id="iria_blade"/>
       <UsablePiece piece_id="empire_noble_guard_3"/>
       <UsablePiece piece_id="empire_grip_17"/>
-      <UsablePiece piece_id="empire_noble_pommel_3"/>
+      <UsablePiece piece_id="empire_noble_pommel_3"/>	  
     </UsablePieces>
   </CraftingTemplate>
-
+  
   <CraftingTemplate id="gladius_princeps" 
-    item_modifier_group="sword" 
-    item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back" 
-    piece_type_to_scale_holster_with="Blade" 
-    hidden_piece_types_on_holster="Blade" 
-    default_item_holster_position_offset="0,0,-0.1">
+					item_modifier_group="sword" 
+					item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back" 
+					piece_type_to_scale_holster_with="Blade" 
+					hidden_piece_types_on_holster="Blade" 
+					default_item_holster_position_offset="0,0,-0.1">
     <PieceDatas>
-      <PieceData piece_type="Handle" 
-        build_order="0"/>
-      <PieceData piece_type="Guard" 
-        build_order="1"/>
-      <PieceData piece_type="Blade" 
-        build_order="2"/>
-      <PieceData piece_type="Pommel" 
-        build_order="-1"/>
+      <PieceData piece_type="Handle" build_order="0"/>
+      <PieceData piece_type="Guard" build_order="1"/>
+      <PieceData piece_type="Blade" build_order="2"/>
+      <PieceData piece_type="Pommel" build_order="-1"/>
     </PieceDatas>
     <WeaponUsageDatas>
       <WeaponUsageData id="OneHandedSword"/>
     </WeaponUsageDatas>
     <StatsData>
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="ThrustSpeed" 
-        max_value="200"/>
-      <StatData stat_type="SwingSpeed" 
-        max_value="200"/>
-      <StatData stat_type="ThrustDamage" 
-        max_value="500"/>
-      <StatData stat_type="SwingDamage" 
-        max_value="500"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="ThrustSpeed" max_value="200"/>
+      <StatData stat_type="SwingSpeed" max_value="200"/>
+      <StatData stat_type="ThrustDamage" max_value="500"/>
+      <StatData stat_type="SwingDamage" max_value="500"/>
     </StatsData>
     <UsablePieces>
-      <UsablePiece piece_id="gladius_blade"/>
+	  <UsablePiece piece_id="gladius_blade"/>
       <UsablePiece piece_id="aserai_guard_5"/>
       <UsablePiece piece_id="empire_grip_4"/>
       <UsablePiece piece_id="sturgian_pommel_1"/>
     </UsablePieces>
   </CraftingTemplate>
-
+  
   <CraftingTemplate id="gladius_senatus" 
-    item_modifier_group="sword" 
-    item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back" 
-    piece_type_to_scale_holster_with="Blade" 
-    hidden_piece_types_on_holster="Blade" 
-    default_item_holster_position_offset="0,0,-0.1">
+					item_modifier_group="sword" 
+					item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back" 
+					piece_type_to_scale_holster_with="Blade" 
+					hidden_piece_types_on_holster="Blade" 
+					default_item_holster_position_offset="0,0,-0.1">
     <PieceDatas>
-      <PieceData piece_type="Handle" 
-        build_order="0"/>
-      <PieceData piece_type="Guard" 
-        build_order="1"/>
-      <PieceData piece_type="Blade" 
-        build_order="2"/>
-      <PieceData piece_type="Pommel" 
-        build_order="-1"/>
+      <PieceData piece_type="Handle" build_order="0"/>
+      <PieceData piece_type="Guard" build_order="1"/>
+      <PieceData piece_type="Blade" build_order="2"/>
+      <PieceData piece_type="Pommel" build_order="-1"/>
     </PieceDatas>
     <WeaponUsageDatas>
       <WeaponUsageData id="OneHandedSword"/>
     </WeaponUsageDatas>
     <StatsData>
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="ThrustSpeed" 
-        max_value="200"/>
-      <StatData stat_type="SwingSpeed" 
-        max_value="200"/>
-      <StatData stat_type="ThrustDamage" 
-        max_value="500"/>
-      <StatData stat_type="SwingDamage" 
-        max_value="500"/>
-      <StatData stat_type="Handling" 
-        max_value="200"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="ThrustSpeed" max_value="200"/>
+      <StatData stat_type="SwingSpeed" max_value="200"/>
+      <StatData stat_type="ThrustDamage" max_value="500"/>
+      <StatData stat_type="SwingDamage" max_value="500"/>
+      <StatData stat_type="Handling" max_value="200"/>
       <!--<StatData stat_type="FollowUp" max_value="200"/>-->
     </StatsData>
     <UsablePieces>
-      <UsablePiece piece_id="gladius_senatus_blade"/>
+	  <UsablePiece piece_id="gladius_senatus_blade"/>
       <UsablePiece piece_id="khuzait_guard_8"/>
       <UsablePiece piece_id="empire_grip_2"/>
       <UsablePiece piece_id="aserai_pommel_6"/>
     </UsablePieces>
   </CraftingTemplate>
-
+  
   <CraftingTemplate id="gladius_augustus" 
-    item_modifier_group="sword" 
-    item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back" 
-    piece_type_to_scale_holster_with="Blade" 
-    hidden_piece_types_on_holster="Blade" 
-    default_item_holster_position_offset="0,0,-0.1">
+					item_modifier_group="sword" 
+					item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back" 
+					piece_type_to_scale_holster_with="Blade" 
+					hidden_piece_types_on_holster="Blade" 
+					default_item_holster_position_offset="0,0,-0.1">
     <PieceDatas>
-      <PieceData piece_type="Handle" 
-        build_order="0"/>
-      <PieceData piece_type="Guard" 
-        build_order="1"/>
-      <PieceData piece_type="Blade" 
-        build_order="2"/>
-      <PieceData piece_type="Pommel" 
-        build_order="-1"/>
+      <PieceData piece_type="Handle" build_order="0"/>
+      <PieceData piece_type="Guard" build_order="1"/>
+      <PieceData piece_type="Blade" build_order="2"/>
+      <PieceData piece_type="Pommel" build_order="-1"/>
     </PieceDatas>
     <WeaponUsageDatas>
       <WeaponUsageData id="OneHandedSword"/>
     </WeaponUsageDatas>
     <StatsData>
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="ThrustSpeed" 
-        max_value="200"/>
-      <StatData stat_type="SwingSpeed" 
-        max_value="200"/>
-      <StatData stat_type="ThrustDamage" 
-        max_value="500"/>
-      <StatData stat_type="SwingDamage" 
-        max_value="500"/>
-      <StatData stat_type="Handling" 
-        max_value="200"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="ThrustSpeed" max_value="200"/>
+      <StatData stat_type="SwingSpeed" max_value="200"/>
+      <StatData stat_type="ThrustDamage" max_value="500"/>
+      <StatData stat_type="SwingDamage" max_value="500"/>
+      <StatData stat_type="Handling" max_value="200"/>
       <!--<StatData stat_type="FollowUp" max_value="200"/>-->
     </StatsData>
     <UsablePieces>
-      <UsablePiece piece_id="gladius_augustus_blade"/>
+	  <UsablePiece piece_id="gladius_augustus_blade"/>
       <UsablePiece piece_id="battania_guard_5"/>
       <UsablePiece piece_id="khuzait_noble_grip_2"/>
       <UsablePiece piece_id="vlandian_pommel_9"/>
     </UsablePieces>
   </CraftingTemplate>
+  
+ 		<!-- CUSTOM JAVELIN --> 		<!-- CUSTOM JAVELIN --> 		<!-- CUSTOM JAVELIN --> 		<!-- CUSTOM JAVELIN --> 		<!-- CUSTOM JAVELIN --> 		<!-- CUSTOM JAVELIN --> 		<!-- CUSTOM JAVELIN -->  
 
-  <!-- #CUSTOM JAVELINS -->
-
-  <CraftingTemplate id="princeps_pilum" 
-    item_modifier_group="spear_dart_throwing" 
-    item_holsters="javelins:javelins_2:bow_hip:bow_hip_2" 
-    default_item_holster_position_offset="0,0,-0.10" 
-    piece_type_to_scale_holster_with="Handle" 
-    hidden_piece_types_on_holster="Guard,Handle,Pommel" 
-    rotate_weapon_in_holster="true" 
-    always_show_holster_with_weapon="true">
+  <CraftingTemplate id="princeps_pilum" item_modifier_group="spear_dart_throwing" item_holsters="javelins:javelins_2:bow_hip:bow_hip_2" default_item_holster_position_offset="0,0,-0.10" piece_type_to_scale_holster_with="Handle" hidden_piece_types_on_holster="Guard,Handle,Pommel" rotate_weapon_in_holster="true" always_show_holster_with_weapon="true">
     <PieceDatas>
-      <PieceData piece_type="Handle" 
-        build_order="0"/>
-      <PieceData piece_type="Guard" 
-        build_order="1"/>
-      <PieceData piece_type="Blade" 
-        build_order="2"/>
-      <PieceData piece_type="Pommel" 
-        build_order="-1"/>
+      <PieceData piece_type="Handle" build_order="0"/>
+      <PieceData piece_type="Guard" build_order="1"/>
+      <PieceData piece_type="Blade" build_order="2"/>
+      <PieceData piece_type="Pommel" build_order="-1"/>
     </PieceDatas>
     <WeaponUsageDatas>
       <WeaponUsageData id="Javelin"/>
       <WeaponUsageData id="OneHandedPolearm_JavelinAlternative"/>
     </WeaponUsageDatas>
     <StatsData usage_data="Javelin">
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="MissileDamage" 
-        max_value="500"/>
-      <StatData stat_type="MissileSpeed" 
-        max_value="200"/>
-      <StatData stat_type="Accuracy" 
-        max_value="100"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="MissileDamage" max_value="500"/>
+      <StatData stat_type="MissileSpeed" max_value="200"/>
+      <StatData stat_type="Accuracy" max_value="100"/>
     </StatsData>
     <StatsData usage_data="OneHandedPolearm_JavelinAlternative">
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="ThrustSpeed" 
-        max_value="200"/>
-      <StatData stat_type="SwingSpeed" 
-        max_value="200"/>
-      <StatData stat_type="ThrustDamage" 
-        max_value="500"/>
-      <StatData stat_type="SwingDamage" 
-        max_value="500"/>
-      <StatData stat_type="Handling" 
-        max_value="200"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="ThrustSpeed" max_value="200"/>
+      <StatData stat_type="SwingSpeed" max_value="200"/>
+      <StatData stat_type="ThrustDamage" max_value="500"/>
+      <StatData stat_type="SwingDamage" max_value="500"/>
+      <StatData stat_type="Handling" max_value="200"/>
       <!--<StatData stat_type="FollowUp" max_value="200"/>-->
     </StatsData>
     <UsablePieces>
@@ -234,197 +168,120 @@
       <UsablePiece piece_id="spear_handle_9"/>
     </UsablePieces>
   </CraftingTemplate>
-  <CraftingTemplate id="legionarius_pilum" 
-    item_modifier_group="spear_dart_throwing" 
-    item_holsters="javelins:javelins_2:bow_hip:bow_hip_2" 
-    default_item_holster_position_offset="0,0,-0.10" 
-    piece_type_to_scale_holster_with="Handle" 
-    hidden_piece_types_on_holster="Guard,Handle,Pommel" 
-    rotate_weapon_in_holster="true" 
-    always_show_holster_with_weapon="true">
+  <CraftingTemplate id="legionarius_pilum" item_modifier_group="spear_dart_throwing" item_holsters="javelins:javelins_2:bow_hip:bow_hip_2" default_item_holster_position_offset="0,0,-0.10" piece_type_to_scale_holster_with="Handle" hidden_piece_types_on_holster="Guard,Handle,Pommel" rotate_weapon_in_holster="true" always_show_holster_with_weapon="true">
     <PieceDatas>
-      <PieceData piece_type="Handle" 
-        build_order="0"/>
-      <PieceData piece_type="Guard" 
-        build_order="1"/>
-      <PieceData piece_type="Blade" 
-        build_order="2"/>
-      <PieceData piece_type="Pommel" 
-        build_order="-1"/>
+      <PieceData piece_type="Handle" build_order="0"/>
+      <PieceData piece_type="Guard" build_order="1"/>
+      <PieceData piece_type="Blade" build_order="2"/>
+      <PieceData piece_type="Pommel" build_order="-1"/>
     </PieceDatas>
     <WeaponUsageDatas>
       <WeaponUsageData id="Javelin"/>
       <WeaponUsageData id="OneHandedPolearm_JavelinAlternative"/>
     </WeaponUsageDatas>
     <StatsData usage_data="Javelin">
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="MissileDamage" 
-        max_value="500"/>
-      <StatData stat_type="MissileSpeed" 
-        max_value="200"/>
-      <StatData stat_type="Accuracy" 
-        max_value="100"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="MissileDamage" max_value="500"/>
+      <StatData stat_type="MissileSpeed" max_value="200"/>
+      <StatData stat_type="Accuracy" max_value="100"/>
     </StatsData>
     <StatsData usage_data="OneHandedPolearm_JavelinAlternative">
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="ThrustSpeed" 
-        max_value="200"/>
-      <StatData stat_type="SwingSpeed" 
-        max_value="200"/>
-      <StatData stat_type="ThrustDamage" 
-        max_value="500"/>
-      <StatData stat_type="SwingDamage" 
-        max_value="500"/>
-      <StatData stat_type="Handling" 
-        max_value="200"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="ThrustSpeed" max_value="200"/>
+      <StatData stat_type="SwingSpeed" max_value="200"/>
+      <StatData stat_type="ThrustDamage" max_value="500"/>
+      <StatData stat_type="SwingDamage" max_value="500"/>
+      <StatData stat_type="Handling" max_value="200"/>
       <!--<StatData stat_type="FollowUp" max_value="200"/>-->
     </StatsData>
     <UsablePieces>
       <UsablePiece piece_id="pilum_legionarius"/>
       <UsablePiece piece_id="spear_guard_7"/>
-      <UsablePiece piece_id="spear_handle_10"/>
+      <UsablePiece piece_id="spear_handle_9"/>
       <UsablePiece piece_id="spear_pommel_5"/>
     </UsablePieces>
   </CraftingTemplate>
-  <CraftingTemplate id="legionarius_elite_pilum" 
-    item_modifier_group="spear_dart_throwing" 
-    item_holsters="javelins:javelins_2:bow_hip:bow_hip_2" 
-    default_item_holster_position_offset="0,0,-0.10" 
-    piece_type_to_scale_holster_with="Handle" 
-    hidden_piece_types_on_holster="Guard,Handle,Pommel" 
-    rotate_weapon_in_holster="true" 
-    always_show_holster_with_weapon="true">
+  <CraftingTemplate id="legionarius_elite_pilum" item_modifier_group="spear_dart_throwing" item_holsters="javelins:javelins_2:bow_hip:bow_hip_2" default_item_holster_position_offset="0,0,-0.10" piece_type_to_scale_holster_with="Handle" hidden_piece_types_on_holster="Guard,Handle,Pommel" rotate_weapon_in_holster="true" always_show_holster_with_weapon="true">
     <PieceDatas>
-      <PieceData piece_type="Handle" 
-        build_order="0"/>
-      <PieceData piece_type="Guard" 
-        build_order="1"/>
-      <PieceData piece_type="Blade" 
-        build_order="2"/>
-      <PieceData piece_type="Pommel" 
-        build_order="-1"/>
+      <PieceData piece_type="Handle" build_order="0"/>
+      <PieceData piece_type="Guard" build_order="1"/>
+      <PieceData piece_type="Blade" build_order="2"/>
+      <PieceData piece_type="Pommel" build_order="-1"/>
     </PieceDatas>
     <WeaponUsageDatas>
       <WeaponUsageData id="Javelin"/>
       <WeaponUsageData id="OneHandedPolearm_JavelinAlternative"/>
     </WeaponUsageDatas>
     <StatsData usage_data="Javelin">
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="MissileDamage" 
-        max_value="500"/>
-      <StatData stat_type="MissileSpeed" 
-        max_value="200"/>
-      <StatData stat_type="Accuracy" 
-        max_value="100"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="MissileDamage" max_value="500"/>
+      <StatData stat_type="MissileSpeed" max_value="200"/>
+      <StatData stat_type="Accuracy" max_value="100"/>
     </StatsData>
     <StatsData usage_data="OneHandedPolearm_JavelinAlternative">
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="ThrustSpeed" 
-        max_value="200"/>
-      <StatData stat_type="SwingSpeed" 
-        max_value="200"/>
-      <StatData stat_type="ThrustDamage" 
-        max_value="500"/>
-      <StatData stat_type="SwingDamage" 
-        max_value="500"/>
-      <StatData stat_type="Handling" 
-        max_value="200"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="ThrustSpeed" max_value="200"/>
+      <StatData stat_type="SwingSpeed" max_value="200"/>
+      <StatData stat_type="ThrustDamage" max_value="500"/>
+      <StatData stat_type="SwingDamage" max_value="500"/>
+      <StatData stat_type="Handling" max_value="200"/>
       <!--<StatData stat_type="FollowUp" max_value="200"/>-->
     </StatsData>
     <UsablePieces>
       <UsablePiece piece_id="pilum_elite"/>
       <UsablePiece piece_id="spear_guard_7"/>
-      <UsablePiece piece_id="spear_handle_11"/>
+      <UsablePiece piece_id="spear_handle_10"/>
       <UsablePiece piece_id="spear_pommel_5"/>
     </UsablePieces>
   </CraftingTemplate>
-  <CraftingTemplate id="electum_pilum" 
-    item_modifier_group="spear_dart_throwing" 
-    item_holsters="javelins:javelins_2:bow_hip:bow_hip_2" 
-    default_item_holster_position_offset="0,0,-0.10" 
-    piece_type_to_scale_holster_with="Handle" 
-    hidden_piece_types_on_holster="Guard,Handle,Pommel" 
-    rotate_weapon_in_holster="true" 
-    always_show_holster_with_weapon="true">
+  <CraftingTemplate id="electum_pilum" item_modifier_group="spear_dart_throwing" item_holsters="javelins:javelins_2:bow_hip:bow_hip_2" default_item_holster_position_offset="0,0,-0.10" piece_type_to_scale_holster_with="Handle" hidden_piece_types_on_holster="Guard,Handle,Pommel" rotate_weapon_in_holster="true" always_show_holster_with_weapon="true">
     <PieceDatas>
-      <PieceData piece_type="Handle" 
-        build_order="0"/>
-      <PieceData piece_type="Guard" 
-        build_order="1"/>
-      <PieceData piece_type="Blade" 
-        build_order="2"/>
-      <PieceData piece_type="Pommel" 
-        build_order="-1"/>
+      <PieceData piece_type="Handle" build_order="0"/>
+      <PieceData piece_type="Guard" build_order="1"/>
+      <PieceData piece_type="Blade" build_order="2"/>
+      <PieceData piece_type="Pommel" build_order="-1"/>
     </PieceDatas>
     <WeaponUsageDatas>
       <WeaponUsageData id="Javelin"/>
       <WeaponUsageData id="OneHandedPolearm_JavelinAlternative"/>
     </WeaponUsageDatas>
     <StatsData usage_data="Javelin">
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="MissileDamage" 
-        max_value="500"/>
-      <StatData stat_type="MissileSpeed" 
-        max_value="200"/>
-      <StatData stat_type="Accuracy" 
-        max_value="100"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="MissileDamage" max_value="500"/>
+      <StatData stat_type="MissileSpeed" max_value="200"/>
+      <StatData stat_type="Accuracy" max_value="100"/>
     </StatsData>
     <StatsData usage_data="OneHandedPolearm_JavelinAlternative">
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="ThrustSpeed" 
-        max_value="200"/>
-      <StatData stat_type="SwingSpeed" 
-        max_value="200"/>
-      <StatData stat_type="ThrustDamage" 
-        max_value="500"/>
-      <StatData stat_type="SwingDamage" 
-        max_value="500"/>
-      <StatData stat_type="Handling" 
-        max_value="200"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="ThrustSpeed" max_value="200"/>
+      <StatData stat_type="SwingSpeed" max_value="200"/>
+      <StatData stat_type="ThrustDamage" max_value="500"/>
+      <StatData stat_type="SwingDamage" max_value="500"/>
+      <StatData stat_type="Handling" max_value="200"/>
       <!--<StatData stat_type="FollowUp" max_value="200"/>-->
     </StatsData>
     <UsablePieces>
       <UsablePiece piece_id="electum_blade"/>
       <UsablePiece piece_id="spear_guard_7"/>
-      <UsablePiece piece_id="spear_handle_11"/>
+      <UsablePiece piece_id="spear_handle_10"/>
       <UsablePiece piece_id="spear_pommel_5"/>
     </UsablePieces>
-  </CraftingTemplate>
+  </CraftingTemplate>  
 
-  <!-- #CUSTOM SPEARS -->
-
-  <CraftingTemplate id="draconarius_lance" 
-    item_modifier_group="polearm" 
-    item_holsters="polearm_back:polearm_back_2:polearm_back_3:polearm_back_4" 
-    default_item_holster_position_offset="0,0,-0.30" 
-    use_weapon_as_holster_mesh="true">
+ 		<!-- CUSTOM SPEAR --> 		<!-- CUSTOM SPEAR --> 		<!-- CUSTOM SPEAR --> 		<!-- CUSTOM SPEAR --> 		<!-- CUSTOM SPEAR --> 		<!-- CUSTOM SPEAR --> 		<!-- CUSTOM SPEAR --> 		<!-- CUSTOM SPEAR -->
+  
+  <CraftingTemplate id="draconarius_lance" item_modifier_group="polearm" item_holsters="polearm_back:polearm_back_2:polearm_back_3:polearm_back_4" default_item_holster_position_offset="0,0,-0.30" use_weapon_as_holster_mesh="true">
     <PieceDatas>
-      <PieceData piece_type="Handle" 
-        build_order="0"/>
-      <PieceData piece_type="Guard" 
-        build_order="1"/>
-      <PieceData piece_type="Blade" 
-        build_order="2"/>
-      <PieceData piece_type="Pommel" 
-        build_order="-1"/>
+      <PieceData piece_type="Handle" build_order="0"/>
+      <PieceData piece_type="Guard" build_order="1"/>
+      <PieceData piece_type="Blade" build_order="2"/>
+      <PieceData piece_type="Pommel" build_order="-1"/>
     </PieceDatas>
     <WeaponUsageDatas>
       <WeaponUsageData id="OneHandedPolearm"/>
@@ -433,28 +290,20 @@
       <WeaponUsageData id="Javelin"/>
     </WeaponUsageDatas>
     <StatsData>
-      <StatData stat_type="Weight" 
-        max_value="7.0"/>
-      <StatData stat_type="WeaponReach" 
-        max_value="300"/>
-      <StatData stat_type="ThrustSpeed" 
-        max_value="200"/>
-      <StatData stat_type="SwingSpeed" 
-        max_value="200"/>
-      <StatData stat_type="ThrustDamage" 
-        max_value="500"/>
-      <StatData stat_type="SwingDamage" 
-        max_value="500"/>
-      <StatData stat_type="Handling" 
-        max_value="200"/>
+      <StatData stat_type="Weight" max_value="7.0"/>
+      <StatData stat_type="WeaponReach" max_value="300"/>
+      <StatData stat_type="ThrustSpeed" max_value="200"/>
+      <StatData stat_type="SwingSpeed" max_value="200"/>
+      <StatData stat_type="ThrustDamage" max_value="500"/>
+      <StatData stat_type="SwingDamage" max_value="500"/>
+      <StatData stat_type="Handling" max_value="200"/>
       <!--<StatData stat_type="FollowUp" max_value="200"/>-->
     </StatsData>
     <UsablePieces>
-      <UsablePiece piece_id="spear_blade_15"/>
-      <UsablePiece piece_id="spear_guard_2"/>
-      <UsablePiece piece_id="draconarius_handle"/>
-      <UsablePiece piece_id="spear_pommel_10"/>
+	  <UsablePiece piece_id="spear_blade_15"/>
+	  <UsablePiece piece_id="spear_guard_2"/>
+	  <UsablePiece piece_id="draconarius_handle"/>	  
+	  <UsablePiece piece_id="spear_pommel_10"/>
     </UsablePieces>
   </CraftingTemplate>
-  
 </CraftingTemplates>
