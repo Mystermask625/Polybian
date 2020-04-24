@@ -973,7 +973,7 @@
                 default_group="Infantry"
                 level="21"
                 civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
-                name="{=*}Praetorius"
+                name="{=*}Praetorianius"
                 occupation="Soldier"
                 culture="Culture.empire">
     <face>
@@ -1824,7 +1824,7 @@
                 default_group="Infantry"
                 level="26"
                 civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
-                name="{=*}Praetorius Cohortis Primus"
+                name="{=*}Praetorianius Cohortis Primus"
                 occupation="Soldier"
                 culture="Culture.empire">
     <face>
@@ -2123,7 +2123,7 @@
   <NPCCharacter id="palatinus_strategos"
                 default_group="Infantry"
                 level="31"
-                name="{=*}Palatinus Strategos"
+                name="{=*}Praetorianius Singularis Augusti"
                 occupation="Soldier"
                 civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
                 culture="Culture.empire">
