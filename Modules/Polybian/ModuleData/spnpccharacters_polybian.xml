@@ -1593,11 +1593,11 @@
     </face>
     <skills>
       <skill id="Athletics" 
-        value="150" />
+        value="180" />
       <skill id="Riding" 
         value="20" />
       <skill id="OneHanded" 
-        value="150" />
+        value="180" />
       <skill id="TwoHanded" 
         value="80" />
       <skill id="Polearm" 
@@ -1607,7 +1607,7 @@
       <skill id="Bow" 
         value="60" />
       <skill id="Throwing" 
-        value="150" />
+        value="170" />
     </skills>
 
     <equipmentSet>
@@ -1615,6 +1615,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1631,6 +1633,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1647,6 +1651,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1663,6 +1669,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1679,6 +1687,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1695,6 +1705,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1711,6 +1723,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1727,6 +1741,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1743,6 +1759,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1759,6 +1777,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1775,6 +1795,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1791,6 +1813,8 @@
         id="Item.primus_sword" />
       <equipment slot="Item1" 
         id="Item.emirs_oval_shield" />
+      <equipment slot="Item2" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
@@ -1811,6 +1835,8 @@
         id="Item.emirs_oval_shield" />
       <equipment slot="Item2" 
         id="Item.primus_sword" />
+      <equipment slot="Item3" 
+        id="Item.legionarius_elite_pilum" />
       <equipment slot="Body" 
         id="Item.eastern_lamellar_armor" />
       <equipment slot="Gloves" 
